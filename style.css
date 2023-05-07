@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+#setup { 
+	margin-left: auto;
+	margin-right: auto;
+	width:100%;
+}
+body { 
+	background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), 
+		rgba(117, 19, 93, 0.73));
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-weight: normal|bold;
+	line-height: Eg. 1.5;
+	text-align: center;
+	margin-top: 1em;
+	padding: 0em;
+}
+nav {
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+}
+nav a { 
+	text-decoration: none; 
+	padding-right: 10px;
+}
+nav a:link{
+	color: #BA1E93;
+}
+nav a:visited{
+	color: #7E16C7;
+}
+nav a:hover{
+	color: #B817D1;
+}
+nav a:active{
+	color: #BA1E93;
+}
+nav ul {
+	list-style-type: none;
+	margin: 0 auto;
+}
+nav li {
+	display: inline;
+}
+title { 
+	font-family: 'Aboreto', cursive; 
+	letter-spacing: Eg. 2px; 
+}
+footer {
+	font-size: 1em;
+	font-style: italic;
+	text-align: center;
+	margin: 0 auto;
+	background: linear-gradient(180deg, #EDD1AC 65%, #C27CC2 35%);
+	margin-left: 0px;
+	margin-right: 0px;
+}
+footer a {
+	text-decoration: 100% ;
+}
+h1 {
+	display: inline;
+	padding: 0px 5px 0px 5px;
+	border-bottom: 5px #DDBBED ridge;
+	border-right: 7px #DDBBED ridge;
+	border-radius: 35px;
+	box-shadow: 2px 2px 3px #828282;
+
+}
+h3 {
+	background-color: #DDBBED;
+	width: 40%; 
+	border-radius: 5px 35px;
+	box-shadow: 2px 2px 3px #DDBBED;
+	font-size: 22px;
+	margin-top: 1em;
+}
+h2 {
+	background-color: #DDBBED;
+	width: 39%; 
+	border-radius: 5px 35px;
+	box-shadow: 2px 2px 3px #DDBBED;
+	font-size: 20px;
+}
+h4 {
+	text-align: left;
+}
+p {
+	text-align: left;
+}
+ul {
+	text-align: left;
+}
+.linebar {
+	background-color: #FCE797;
+	width: 100%;
+	height: 3px;
+	border-top: 2px dotted #EBE0FF;
+	border-bottom: 2px dotted #EBE0FF;
+	line-height: 80%;
+}
+.leftflo {
+	float: left;
+}
+.inside {
+	display: inline;
+}
+.logo {
+	border-radius: 14px 14px;
+}
+.foot {
+	padding-top: 5px;
+}
+.top-paragraph {
+	padding: 0px 5px 0px 30px;
+}
+.storehead {
+	background-color: #DDBBED;
+	padding: 3px 0px 3px 2em;
+	font-size: 45px;
+	text-align: left;
+	margin: 0 1em 0 1em;
+}
+/* Color 
+violetish: #9130b8
+bluish: #3f4cb0
+goldish: #d19738
+violet-white: #f5ebfa
+*/
