@@ -64,10 +64,8 @@ h1 {
 	display: inline;
 	padding: 0px 5px 0px 5px;
 	border-bottom: 5px #DDBBED ridge;
-	border-right: 7px #DDBBED ridge;
-	border-radius: 35px;
-	box-shadow: 2px 2px 3px #828282;
-
+	margin-bottom: 1em;
+	font-family: "Garamond", sans-serif;
 }
 h3 {
 	background-color: #DDBBED;
@@ -116,12 +114,78 @@ ul {
 .top-paragraph {
 	padding: 0px 5px 0px 30px;
 }
-.storehead {
+.store-head {
 	background-color: #DDBBED;
-	padding: 3px 0px 3px 2em;
+	padding: 3px 0px 3px 15px;
 	font-size: 45px;
 	text-align: left;
-	margin: 0 1em 0 1em;
+	margin: 0px 1em 10px 1em;
+	border-radius: 25px 25px 0px 0px;
+	box-shadow: 2px 2px 3px #828282;
+	font-family: "Papyrus", "Garamond", fantasy, serif;
+}
+.store-non-head {
+	background-color: #DDBBED;
+	padding: 3px 0px 3px 15px;
+	font-size: 45px;
+	text-align: left;
+	margin: 7px 1em 10px 1em;
+	border-radius: 25px 25px 0px 0px;
+	box-shadow: 2px 2px 3px #828282;
+	font-family: "Papyrus", "Garamond", fantasy, serif;
+}
+.store-bod {
+	margin: 0px 1em 0px 1em;
+}
+.store-foot {
+	margin: 0px 3em 0px 3em;
+	background-color: #C59FD6;
+	border-radius: 0px 0px 20px 20px;
+	box-shadow: 2px 2px 3px #828282;
+}
+.table-head {
+	background-color: #DDBBED;
+	padding: 20px 0px 0px 15px;
+	font-size: 45px;
+	text-align: center;
+	margin: 5px 2em 5px 2em;
+	border-radius: 25px 25px;
+	box-shadow: 2px 2px 3px #828282;
+	font-family: "Papyrus", "Garamond", fantasy, serif;
+}
+.faq-bod {
+	background-color: #8BC490;
+	border-style: inset groove outset groove;
+	border-color: #FACAB9;
+	border-width: 6px;
+	margin: 0px 1em 10px 1em;
+}
+.question {
+	text-align: left;
+	font-size: 23px;
+	font-family: "Didot", "Garamond", serif;
+	color: #633E37;
+	font-weight: bold;
+	padding: 2px 0px 2px 40px;
+}
+.answer {
+	text-align: left;
+	font-size: 15px;
+	font-family: "Didot", "Garamond", serif;
+	font-weight: bold;
+	padding: 2px 0px 20px 40px;
+}
+@media only screen and (max-width: 1024px) {
+	h1 { 
+		font-size: 2em;
+	}
+}
+/*CSS for Smartphones*/
+@media only screen and (max-width: 768px) {
+	h1 { 
+		font-size: 1.5em;
+	}
+	
 }
 /* Color 
 violetish: #9130b8
